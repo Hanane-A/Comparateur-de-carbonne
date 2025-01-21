@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(0, 102, 49);
+    color: white;
+    height: auto;
+    padding: 50px;
+}
+
+header h1{
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+.section1{
+    text-align: center;
+    padding-bottom: 5px;
+    font: 1em sans-serif;
+}
+
+.section2{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 15px 0;
+    border:2px solid rgb(176, 174, 174) ;
+    border-radius: 10px;
+}
+
+.section2 form section{
+    padding: 13px 0;
+    background-color: rgb(203, 255, 185);
+}
+
+.section2 form section div input{
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    width: 45%;
+    height: auto;
+}
+.section2 form section div label{
+    font-size: medium;
+    font-weight: bold;
+    margin: auto;
+}
+.section2 form section div span{
+    display: flex;
+    justify-content: center;
+    width:50% ;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.lb{
+    padding-top: 10px;
+}
+
+.btn{
+    padding: 15px 0;
+    display: flex;
+}
+
+.btn button{
+    margin: 0 0.5%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(65, 177, 0);
+    width: 25%;
+    color: white;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+
+.section3{
+    font: 1em sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+input:focus{
+    outline: none;
+}
